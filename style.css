@@ -37,12 +37,14 @@ a:hover {
   margin: 0 1rem;
   margin-left: 4rem;
   margin-right: 2.5rem;
+  line-height: 32px;
   font-size: 20px;
 }
 #resumen {
   margin: 7rem 4rem;
   margin-left: 4rem;
   margin-right: 2.5rem;
+  line-height: 32px;
   font-size: 18px;
 }
 #resumen h3 {
@@ -71,6 +73,7 @@ ul {
   width: 200px;
   height: 180px;
   margin: 0 1.5%;
+  margin-right: 2rem;
   background-color: white;
   font-weight: bold;
 }
@@ -105,9 +108,100 @@ ul {
 }
 
 footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 3rem 0px;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 350px;
+  }
+  header {
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+  header p {
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav-bar {
+    display: none;
+  }
+  main {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #presentacion {
+    width: 100%;
+    margin: 0 1rem;
+    margin-left: 20px;
+
+    font-size: 20px;
+  }
+  #resumen {
+    width: 100%;
+    margin: 5rem;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  ul {
+    display: block;
+    align-items: center;
+    list-style: none;
+  }
+  .links-personales {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 20px;
+    display: flex;
+    padding: 0px;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: blue;
+  }
+  .tittle-mobile {
+    margin-left: 20px;
+  }
+  #skills {
+    width: 100%;
+  }
+  .skills-card li {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 12%;
+  }
+  .skills-card img {
+    width: 48px;
+    height: 48px;
+  }
+  .p-card {
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .formacion-card li {
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .formacion-card img {
+    width: 150px;
+    height: 100px;
+  }
 }
