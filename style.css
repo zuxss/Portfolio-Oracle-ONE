@@ -32,7 +32,9 @@ a:visited {
 a:hover {
   color: blue;
 }
-
+.nav-bar {
+  color: black;
+}
 #presentacion {
   margin: 0 1rem;
   margin-left: 4rem;
@@ -59,7 +61,9 @@ ul {
 .links-personales {
   margin: 2rem 1.5rem;
 }
-
+.links-personales a {
+  color: black;
+}
 .tittle {
   text-align: center;
   font-weight: bold;
@@ -94,10 +98,13 @@ ul {
 }
 
 .formacion-card img {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 180px;
 }
-
+#alura {
+  width: 300px;
+  height: 180px;
+}
 .p-card {
   margin-top: 20%;
 }
@@ -188,20 +195,24 @@ footer {
     height: 48px;
   }
   .p-card {
-    margin-top: 30%;
+    margin-top: 20%;
     font-weight: bold;
     font-size: 16px;
   }
   .formacion-card li {
     text-align: center;
     width: 250px;
-    height: 100px;
+    height: 180px;
     margin-top: 30px;
     margin-left: 10px;
   }
 
   .formacion-card img {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 180px;
+  }
+  #alura {
+    width: 240px;
+    height: 180px;
   }
 }
