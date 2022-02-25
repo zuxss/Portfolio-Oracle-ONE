@@ -155,7 +155,7 @@ footer {
   }
   #resumen {
     width: 100%;
-    margin: 5rem;
+    margin: 4rem;
     margin-left: 20px;
     font-size: 18px;
   }
@@ -170,6 +170,10 @@ footer {
     margin-left: 20px;
     display: flex;
     padding: 0px;
+  }
+  .links-personales li {
+    font-size: 13px;
+    font-weight: bold;
   }
   a:visited {
     color: black;
@@ -214,5 +218,9 @@ footer {
   #alura {
     width: 240px;
     height: 180px;
+  }
+  .arrow-icon {
+    height: 9px;
+    width: 9px;
   }
 }
