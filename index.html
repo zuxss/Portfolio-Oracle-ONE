@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway&display=swap"
     rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
@@ -62,9 +63,6 @@
           Técnico Mecánico Electricista especializado en la parte electrica. Terminando de cursar Licenciatura en Letras en la
           Universidad Nacional de Tucumán. Desarrollador FrontEnd con muchas ganas de seguir creciendo en el mundo de la programación.
           Escritor e investigador centrado en los videojuegos.
-        </p>
-
-    
         </p>
       </section>
       <section id="skills">
@@ -146,9 +144,28 @@
           </li>
         </ul>
       </section>
-      <footer>
-        <p>@Zuxss</p>
-      </footer>
+      <section id="contacto">
+        <img src="./img/contacto-logo.png" id="email-img">
+        
+        <form action="">
+          <div id="contacto-titulo">
+          <h2>Contacto</h2>
+          <p> Si deseas contactarme, llena el siguiente formulario y me pondre en contacto lo antes posible</p>
+        </div>
+          <input type="text" id="name" placeholder="Nombre">
+          
+          <input type="email" id="email" placeholder="Email">
+          
+          <input type="text" id="subject" placeholder="Asunto">
+          
+          <textarea type="text" id="msj" placeholder="Mensaje"></textarea>
+          
+          <input type="submit" id="enviar-button" value="Enviar Mensaje" >
+        </form>
+      </section>
     </main>
+    <footer>
+      <p>@Zuxss</p>
+    </footer>
   </body>
 </html>
