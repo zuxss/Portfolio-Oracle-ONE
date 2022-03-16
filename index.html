@@ -147,18 +147,23 @@
       <section id="contacto">
         <img src="./img/contacto-logo.png" id="email-img">
         
-        <form action="">
+        <form action="https://postmail.invotes.com/send"
+        method="post" id="email_form">
           <div id="contacto-titulo">
           <h2>Contacto</h2>
           <p> Si deseas contactarme, llena el siguiente formulario y me pondre en contacto lo antes posible</p>
         </div>
           <input type="text" id="name" placeholder="Nombre">
           
-          <input type="email" id="email" placeholder="Email">
+          <input type="email" id="email" name="reply_to" require placeholder="Email">
           
-          <input type="text" id="subject" placeholder="Asunto">
+          <input type="text" name="subjecto" id="subject" placeholder="Asunto">
           
-          <textarea type="text" id="msj" placeholder="Mensaje"></textarea>
+          <textarea type="text" name="texto" id="msj" placeholder="Mensaje"></textarea>
+          <input type="hidden" name="access_token" value="82y6jww0imwganifscxlrssf" />
+          <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+   
           
           <input type="submit" id="enviar-button" value="Enviar Mensaje" >
         </form>
@@ -167,5 +172,6 @@
     <footer>
       <p>@Zuxss</p>
     </footer>
+    
   </body>
 </html>
