@@ -1,0 +1,120 @@
+/* Responsive Design */
+@media screen and (max-width: 980px) {
+  main {
+    margin: 1.5rem;
+  }
+  header {
+    align-items: center;
+    height: 5rem;
+    margin: 1.5rem;
+  }
+  header p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  #presentacion {
+    font-size: 20px;
+  }
+  #resumen {
+    font-size: 18px;
+  }
+  ul {
+    display: block;
+    align-items: center;
+    list-style: none;
+  }
+  .links-personales {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .links-personales li {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: blue;
+  }
+  .skills-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .skills-card li {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .skills-card img {
+    width: 48px;
+    height: 48px;
+  }
+  .p-card {
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #formacion {
+    justify-content: center;
+  }
+
+  .formacion-card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formacion-card li {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .arrow-icon {
+    height: 9px;
+    width: 9px;
+  }
+  #contacto {
+    justify-content: center;
+  }
+  form {
+    margin: 0;
+  }
+
+  form #name,
+  #email,
+  #subject,
+  #msj {
+    padding-left: 5px;
+  }
+  #email-img {
+    display: none;
+  }
+  #proyectos {
+    display: block;
+    margin-bottom: 60px;
+    align-items: baseline;
+  }
+  .proyectos-img {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+  }
+  .proyecto-nombre {
+    margin-left: 0px;
+  }
+  .proyectos-btn {
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,44 @@
+#proyectos {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+}
+.proyectos-img {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  border: 1px solid lightblue;
+}
+.proyecto-nombre {
+  margin-left: 10px;
+}
+.proyecto-nombre h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.proyecto-nombre p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.proyectos-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+}
+.demo {
+  background-color: #2a7ae4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.repo {
+  background-color: #f5f5f5;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+  cursor: pointer;
+}
+.proyectos-links {
+  text-decoration: none;
+  margin: 0;
+}

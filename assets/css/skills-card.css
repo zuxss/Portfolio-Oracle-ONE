@@ -1,0 +1,17 @@
+.skills-card li {
+  text-align: center;
+  width: 100%;
+  height: 180px;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+.skills-card img {
+  width: 48px;
+  height: 48px;
+  margin-top: 20%;
+}
+
+.p-card {
+  margin-top: 20%;
+}

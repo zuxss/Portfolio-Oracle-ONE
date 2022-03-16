@@ -1,0 +1,8 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2rem;
+  font-weight: bold;
+}

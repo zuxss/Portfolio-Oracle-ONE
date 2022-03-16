@@ -1,0 +1,24 @@
+#presentacion {
+  line-height: 32px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#presentacion h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#presentacion h6 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#resumen {
+  line-height: 32px;
+  font-size: 18px;
+  margin-bottom: 85px;
+}
+#resumen h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}

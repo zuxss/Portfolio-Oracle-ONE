@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  height: 5rem;
+  margin: 80px;
+  margin-top: 0px;
+}
+header p {
+  font-weight: bold;
+}
+
+a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+.nav-bar {
+  color: black;
+}
